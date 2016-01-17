@@ -1,0 +1,24 @@
+html, body, h1, h2 {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.createnotes {
+  background: url(images/Create_notes_bg.png) no-repeat bottom left; 
+  background-size: cover;
+  height:560px;
+}
+
+
+.saveimages {
+  background: url(images/Save_images_bg.png) no-repeat bottom right; 
+  background-size: cover;
+  height:560px;
+}
+
+.addlinks {
+  background: url(images/Add_links_bg.png) no-repeat center center; 
+  background-size: cover;
+  height:562px;  
+}
