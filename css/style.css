@@ -1,0 +1,116 @@
+html, body, h1, h2 {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  text-align: center;
+}
+
+body {
+   font-family: "Alegreya Sans", Helvetica, Arial, sans-serif;
+   color:#8ba9de;
+}
+
+h1, h2, h3, h4, h5, h6 {
+   font-family: "Nunito", Helvetica, Arial, sans-serif;
+   color:#ffffff;
+}
+
+h2 {
+   font-size:47px;
+   font-weight: 300;
+   margin-bottom: 5px;
+}
+
+p {
+   font-size:30px;
+   line-height: 40px;
+   font-weight: 400;
+   padding: 0;
+   margin: 0;
+}
+
+.createnotes {
+  background: url(../images/Create_notes_bg.png) no-repeat bottom left; 
+  background-size: cover;
+  height:560px;
+}
+
+.createnotes .container {
+  position:relative;
+  float:right;
+  text-align:left;
+  margin: 150px 150px;
+  max-width: 462px;
+
+}
+
+.createnotes .container h2 {
+  text-align:right;
+  padding-bottom: 20px;
+}
+
+
+.saveimages {
+  background: url(../images/Save_images_bg.png) no-repeat bottom right; 
+  background-size: cover;
+  height:560px;
+}
+
+.saveimages .container {
+  position:relative;
+  float:left;
+  text-align:left;
+  margin: 170px 150px;
+  max-width: 500px;
+
+}
+
+.saveimages .container h2 {
+  text-align:left;
+  padding-bottom: 40px;
+}
+
+.addlinks {
+  background: url(../images/Add_links_bg.png) no-repeat center center; 
+  background-size: cover;
+  height:562px;  
+}
+
+.addlinks .container {
+  position:relative;
+  float:right;
+  text-align:right;
+  margin: 185px 150px;
+  max-width: 500px;
+
+}
+
+.addlinks .container h2 {
+  text-align:right;
+  padding-bottom: 20px;
+}
+
+
+/* GRID */
+ .container {
+   margin-right: auto;
+   margin-left: auto;
+   padding-left: 15px;
+   padding-right: 15px;
+   position: relative;
+ }
+ .container:before,
+ .container:after {
+   content: " ";
+   display: table;
+ }
+ .container:after {
+   clear: both;
+ }
+ .one-half, .one-third, .one-fourth {
+   width:96%;
+   float:left;
+   position:relative;
+   min-height: 1px;
+   margin:0 2% 20px;
+ }
