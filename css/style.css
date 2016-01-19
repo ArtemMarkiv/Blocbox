@@ -1,9 +1,9 @@
 html, body, h1, h2 {
   margin: 0;
   padding: 0;
-  overflow-x: hidden;
-  text-align: center;
+  
 }
+
 
 body {
    font-family: "Alegreya Sans", Helvetica, Arial, sans-serif;
@@ -13,6 +13,12 @@ body {
 h1, h2, h3, h4, h5, h6 {
    font-family: "Nunito", Helvetica, Arial, sans-serif;
    color:#ffffff;
+}
+
+h1 {
+   font-size:70px;
+   font-weight: 300;
+   margin:0 0px 30px 20px;
 }
 
 h2 {
@@ -90,7 +96,6 @@ p {
   padding-bottom: 20px;
 }
 
-
 /* GRID */
  .container {
    margin-right: auto;
@@ -112,5 +117,144 @@ p {
    float:left;
    position:relative;
    min-height: 1px;
-   margin:0 2% 20px;
+   margin:0px 2% 0px;
  }
+
+
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+  .one-half {
+   width:46%;
+    }
+  .one-third {
+    width:29%;
+  }
+  .one-fourth {
+    width:21%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1140px;
+  }
+}
+
+@media (min-width: 4000px) {
+  h1 {
+    font-size:100px;
+  }
+}
+
+
+
+/*HEADER*/
+
+header {
+  background-image: linear-gradient(180deg, #3E4954 0%, #3E4954 70%, #0E1b36 100%);
+  height:650px;
+}
+
+header nav {
+  padding:1.8em 0 1em 2em; /*increased top and bottom distance between top of the screen and next section */ 
+ }
+
+header .containerbig2 {
+    background: url(../images/Blocbox_letters_copy.png) no-repeat bottom right; 
+    border-top:1px solid #495874;
+}
+
+header .containerbig1 {
+  border-bottom:1px solid #272f37;
+}
+
+ header #sign {  
+   display:inline; /*navigation links are shown inline  */
+   text-align: right;  /*!!!!!!can't see the differrence between right center or left*/
+   float:right;   /*aligining to the right inside container - made additional ids for signin signup as it wasn't possible to aligining smaller to center*/
+   margin:0;
+   font-size:30px;
+ }   
+
+header #smaller {  
+  font-size: 17px;
+  font-weight:100;
+  text-align:center;
+  padding:0;
+}
+
+header #smaller li {  
+  padding:0 10px;
+}
+
+
+ header nav ul > li {    /*don't see the reason of ">" sign since it accounts only first nested elements, and there are no second nested elements*/
+   list-style-type: none;
+   display: inline-block;
+   color:#8ba9de;
+
+ }
+ 
+ header nav ul > li.btn-outline {
+   padding:10px 15px;
+   border:2px solid #8ba9de;;
+   border-radius: 17px;
+   margin-left: 20px;
+ }
+
+ header nav ul > li.btn-outline:hover {
+   background:#8ba9de;
+ }
+
+ header nav ul > li > a {
+   color:#8ba9de;
+   text-decoration: none;
+ }
+
+  header nav ul > li > a:hover {
+   color:#ffffff;
+   text-decoration: none;
+ }
+
+ header nav ul > li.btn-outline:hover > a {
+   color:#34495E;
+ }
+
+
+.btn {
+  background:#e88900;
+  border-radius: 10px;
+  text-decoration: none;
+  color:#ffffff;
+  padding:10px 15px;
+  font-size: 20px;
+  transition:0.2s;
+  box-shadow: 0px 3px 0px 0px #9c6b2b;
+}
+
+.btn:hover {
+   color:#34495E;
+   background:#8ba9de;
+   color:#ffffff;
+   box-shadow: 0px 3px 0px 0px #515f6e;
+}
+
+header .container.hero {
+margin-top:50px;
+
+}
+
+header .container.hero p {
+  margin-bottom:50px;
+}
+
+
