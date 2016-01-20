@@ -157,7 +157,7 @@ p {
 
 
 
-/*HEADER*/
+                                                                                      /*HEADER*/
 
 header {
   background-image: linear-gradient(180deg, #3E4954 0%, #3E4954 70%, #0E1b36 100%);
@@ -239,6 +239,10 @@ header #smaller li {
   font-size: 20px;
   transition:0.2s;
   box-shadow: 0px 3px 0px 0px #9c6b2b;
+  /*margin-left:20px;
+  margin-top:20px;*/
+
+
 }
 
 .btn:hover {
@@ -254,11 +258,11 @@ margin-top:50px;
 }
 
 header .container.hero p {
-  margin-bottom:50px;
+  margin-bottom:40px;
 }
 
-                                                                        /*PRICING*/
-
+                                                                                 /*PRICING*/
+ 
 .pricing {
    background: url("../images/Pricing_bg.png") top center no-repeat;
    background-size:cover;
@@ -458,6 +462,7 @@ header .container.hero p {
      padding: 2em 0;
      text-align: left;
    }
+   
    footer .right-footer-block {
      background-color: #3e4954;
 
