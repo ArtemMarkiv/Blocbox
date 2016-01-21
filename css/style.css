@@ -562,6 +562,13 @@ header .container.hero p {
    font-weight: 400;
    margin:5px 0 0 10px;
  }
+
+ .left-nav .settings ul {
+  position:relative;
+  float:right;
+}
+
+
  .left-nav .settings a {
   font-size: 22px;
    color:#DDDDDD;
@@ -569,7 +576,11 @@ header .container.hero p {
    text-align: right;
    float: right;
    margin-right:30px;
-   margin-top:12px;
+   margin-top:0px;
+ }
+
+  .left-nav a:hover {
+color:gray;
  }
 
 
@@ -594,7 +605,7 @@ header .container.hero p {
    float: left;
    display:inline-block;
  }
- .content .header > a {
+ .content .header .menu li > a {
    float:right;
  }
  .content-item {
