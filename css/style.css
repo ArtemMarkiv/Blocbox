@@ -574,7 +574,6 @@ header .container.hero p {
 
  .left-nav .items ul {
    margin:0 0 40px;
-   padding:0;
 }
 
 .left-nav .items ul .active {
@@ -585,6 +584,7 @@ header .container.hero p {
    list-style-type: none;
    margin-bottom: 15px;
  }
+
  .left-nav .items ul li a {
    color:#FFFFFF;
    text-decoration: none;
@@ -596,8 +596,7 @@ header .container.hero p {
    margin-right:8px;
  }
 
-
-                                                           /* LEFT NAVBAR SETTINGS */
+/* LEFT NAVBAR SETTINGS */
  .left-nav .settings {
    width:100%;
    padding:10px 0 10px;
@@ -612,6 +611,7 @@ header .container.hero p {
    margin-left:25px;
    display: inline-block;
  }
+
  .left-nav .settings p {
   font-size: 22px;
    display: inline-block;
@@ -621,10 +621,8 @@ header .container.hero p {
  }
 
  .left-nav .settings ul {
-  position:relative;
   float:right;
 }
-
 
  .left-nav .settings a {
   font-size: 22px;
@@ -632,17 +630,14 @@ header .container.hero p {
    text-decoration: none;
    text-align: right;
    float: right;
-   margin-right:30px;
-   margin-top:0px;
+   margin-right:10px;
  }
 
   .left-nav a:hover {
 color:gray;
  }
 
-
-
-                                                        /* CONTENT */
+/* CONTENT */
  .content {
    padding:6em 1% 1.5em;
    float:right;
